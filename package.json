@@ -1,0 +1,21 @@
+{
+    "name": "panda-meetup",
+    "version": "1.0.0",
+    "description": "A simple meetup app",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js",
+      "seed": "node utils/seed.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "date-fns": "^2.29.3",
+      "express": "^4.18.2",
+      "mongodb": "^5.2.0",
+      "mongoose": "^7.0.3",
+      "nosql": "^6.1.0"
+    }
+  }
